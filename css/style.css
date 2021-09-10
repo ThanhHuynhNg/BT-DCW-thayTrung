@@ -88,8 +88,11 @@ body{
     height: 40px;
     background: #57ABFF;
     border: none;
-    border-radius: 20px;
-    color: white;    
+    border-radius: 20px;       
+}
+.nutbam button:first-child a{
+    text-decoration: none;
+    color: white; 
 }
 .nutbam button:first-child i{
     padding-right: 12px;
@@ -102,8 +105,15 @@ body{
     border-radius: 20px;
     color: white;    
 }
+.nutbam button:last-child a{
+    text-decoration: none;
+    color: white; 
+}
 .nutbam button:last-child i{
     padding-right: 12px;
+}
+.nutbam button:hover{
+    background: #1c548d;
 }
 .chuthich{
     margin-left: 50px;
@@ -246,7 +256,7 @@ body{
     padding: 50px;
     background: #181A23;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .info p,
